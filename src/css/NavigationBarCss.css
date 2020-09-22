@@ -1,0 +1,71 @@
+.navigationbar-mod{
+  height:100%;
+}
+
+.top-navigationbar{
+  height:70%;
+  background-color: var(--complimentaryDark);
+}
+
+.navigationbar-item{
+  color:var(--mainWhite);
+}
+
+.navigationbar-brand a:hover{
+  text-decoration: none;
+}
+
+.logo-space{
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.categories-space{
+  margin: 8px 2px 8px 8px;
+}
+
+.categories-space a:hover{
+  text-decoration: underline;
+}
+
+#collasible-nav-dropdown{
+  color:var(--mainWhite);
+}
+
+.dropdown-text{
+  font-size: 13px;
+}
+
+.searchbar-space{
+  width: 600px;
+}
+
+.login-space{
+  margin: 8px;
+}
+
+.login-space a:hover{
+  text-decoration: underline;
+}
+
+.returns-space{
+  margin: 8px;
+}
+
+.returns-space:hover{
+  text-decoration: underline;
+}
+
+.cart-space{
+  margin: 8px;
+}
+
+.cart-space:hover{
+  text-decoration: underline;
+}
+
+
+.bottom-navigationbar{
+  height:30%;
+  background-color: var(--mainBlue);
+}

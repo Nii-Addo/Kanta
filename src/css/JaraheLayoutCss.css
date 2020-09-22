@@ -1,0 +1,34 @@
+.layout-mod{
+  position: relative;
+/*  min-height:calc(100vh - 0px);*/
+  background-color: var(--mainWhite);
+}
+
+.layout-header{
+  display: block;
+  position: absolute;
+  top:0;
+  height: 90px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.layout-content{
+  clear: both;
+  margin-top: 105px;
+  padding-bottom: 20px;
+  height:calc(100vh + 500px);;
+  width: 100%;
+  display: block;
+}
+
+.layout-footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  max-height: calc(100vh + 500px);
+  font-weight: 500;
+  line-height: 20px;
+}

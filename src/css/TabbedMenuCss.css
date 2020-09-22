@@ -1,0 +1,83 @@
+.item_details-mod{
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+
+.item_details-mod >h5{
+  margin-left: 25px;
+}
+
+.item_details-mod Table{
+  margin-left: 25px;
+}
+
+.table-section{
+  width: 600px;
+}
+
+.table-section Table tbody tr td {
+  width: 100px;
+}
+
+.ratings-review-mod{
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 100%;
+  height: 500px;
+}
+
+.ratings-bar-mod{
+  padding-top: 50px;
+  padding-left:50px;
+}
+
+.ratings-bar{
+   font-size: 30px;
+   line-height: 20px;
+   font-weight: 700;
+   margin-left: 60px;
+}
+
+.ratings-text{
+   margin-left: 25px;
+   margin-top: 50px;
+}
+
+.rr-box{
+  width: 300px;
+  height: 230px;
+  border: 0.05px solid grey;
+}
+
+.status-bar-mod{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.recommendation-box p {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.RecommendationButton-space-mod{
+  margin-left: 60px;
+}
+
+.RecommendationButton-space{
+  width: 60px;
+}
+
+.review-space{
+   padding: 40px;
+}
+
+.review-space div{
+  margin: 50px;
+}
+
+.review-button-space{
+  width: 100px;
+  margin: 20px;
+}

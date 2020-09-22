@@ -1,0 +1,38 @@
+.signup-page{
+    margin-top: 2%;
+    height: 100%;
+}
+
+.signup-page-mod{
+    background: #f8f9fa;
+    width: 60%;
+    max-height: 100%;
+    border-radius: 6px;
+    margin-bottom: 10%;
+}
+
+.signup-page-heading{
+  padding-left: 4%;
+  margin-top: 3%;
+  color: #495057;
+}
+
+.signup-page-form{
+    margin-top: 10px;
+    margin-left: 4%;
+    padding-right: 10px;
+    height:100%;
+}
+
+.agreement{
+  margin-right: 20px;
+  font-size: 0.8em;
+}
+
+.btnSignup{
+    width: 300px;
+}
+
+.signin-link-on-signup-form{
+  margin-left: 4%;
+}

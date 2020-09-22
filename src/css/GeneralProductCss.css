@@ -1,0 +1,65 @@
+.general-product-image{
+  display: block;
+  border-style: none;
+  max-height: 200px;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.general-product-details{
+  position: absolute;
+  top:65%; 
+}
+
+.product-text{
+  font-size: 14px;
+  color:var(--mainDark);
+}
+
+.general-product-name-mod{
+  height: 25px;
+  margin-top: 5px;
+  white-space: wrap;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+
+.general-product-name{
+ padding-top: 14px;
+ font-weight: 400;
+ line-height: normal;
+ text-overflow:ellipsis;
+}
+
+.general-product-price-mod{
+  padding: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.general-product-old-price-mod{
+  font-size: 13px;
+  padding: 2px;
+  color: #757575;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.discount-mod{
+  top: 12px;
+  right: 17px;
+  position: absolute;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 24px;
+  min-width: 40px;
+  line-height: 1.2;
+  align-items: center;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #24a3b5;
+  background-color: #feefde;
+}
