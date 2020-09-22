@@ -3,7 +3,7 @@ import NavigationBar from './components/layouts/NavigationBar';
 import Footer from './components/layouts/Footer';
 import './css/JaraheLayoutCss.css';
 
-const JaraheLayout = ({children}) => (
+const KantaLayout = ({children}) => (
   <div className="layout-mod">
     <div className="layout-header fixed-top">
       <NavigationBar/>
@@ -17,4 +17,4 @@ const JaraheLayout = ({children}) => (
   </div>
 );
 
-export default JaraheLayout;
+export default KantaLayout;

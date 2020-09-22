@@ -15,7 +15,7 @@ return(
       <div className="top-navigationbar">
           <Navbar collapseOnSelect expand="lg" className="navigationbar-item">
           <br/>
-          <Navbar.Brand className="navigationbar-brand"><NavLink to="/"><div className="navigationbar-item logo-space">Jarahe</div></NavLink></Navbar.Brand>
+          <Navbar.Brand className="navigationbar-brand"><NavLink to="/"><div className="navigationbar-item logo-space">Kanta</div></NavLink></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">

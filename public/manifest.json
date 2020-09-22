@@ -1,8 +1,8 @@
 {
-  "short_name": "React App",
+  "short_name": "Kanta",
   "name": "Create React App Sample",
   "icons": [
-    
+
   ],
   "start_url": ".",
   "display": "standalone",

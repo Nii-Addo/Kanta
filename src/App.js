@@ -3,7 +3,7 @@ import {AuthProvider} from './contexts/AuthContext';
 import {ProductProvider} from './contexts/ProductContext';
 import './App.css';
 import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
-import JaraheLayout from './JaraheLayout';
+import KantaLayout from './KantaLayout';
 import Home from './pages/Home';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
@@ -22,7 +22,7 @@ const AppRoutes=()=>{
       <Route path="/registration">
         <SignUp/>
       </Route>
-      <JaraheLayout>
+      <KantaLayout>
          <Route exact path="/">
            <Home/>
          </Route>
@@ -35,7 +35,7 @@ const AppRoutes=()=>{
          <Route path="/checkout">
           <Checkout/>
          </Route>
-      </JaraheLayout>
+      </KantaLayout>
        <Route path="*">
          <PageNotFound/>
        </Route>
